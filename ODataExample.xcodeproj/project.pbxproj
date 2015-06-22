@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1A95201AF99406001C53A6 /* ODataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1A951E1AF99406001C53A6 /* ODataRequest.m */; };
+		CA1A95261AF9989A001C53A6 /* CredentialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1A95251AF9989A001C53A6 /* CredentialObject.m */; };
+		CA1A95271AF99E1E001C53A6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7062D1AF972860023904A /* Constants.m */; };
+		CAA705FD1AF96DFA0023904A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA705FC1AF96DFA0023904A /* main.m */; };
+		CAA706001AF96DFA0023904A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA705FF1AF96DFA0023904A /* AppDelegate.m */; };
+		CAA706031AF96DFA0023904A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA706021AF96DFA0023904A /* ViewController.m */; };
+		CAA706061AF96DFA0023904A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA706041AF96DFA0023904A /* Main.storyboard */; };
+		CAA706081AF96DFA0023904A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA706071AF96DFA0023904A /* Images.xcassets */; };
+		CAA7060B1AF96DFA0023904A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA706091AF96DFA0023904A /* LaunchScreen.xib */; };
+		CAA706171AF96DFB0023904A /* ODataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA706161AF96DFB0023904A /* ODataExampleTests.m */; };
+		CAA706251AF96EFC0023904A /* ODataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA706241AF96EFC0023904A /* ODataProvider.m */; };
+		CAA706281AF971F20023904A /* DataFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA706271AF971F20023904A /* DataFacade.m */; };
+		CAA7062B1AF972120023904A /* ProviderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7062A1AF972120023904A /* ProviderFactory.m */; };
+		CAA7062E1AF972860023904A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7062D1AF972860023904A /* Constants.m */; };
+		CAA7063A1AF973410023904A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA706391AF973410023904A /* InterfaceController.m */; };
+		CAA706421AF973410023904A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA706411AF973410023904A /* Images.xcassets */; };
+		CAA706461AF973410023904A /* ODataExample WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = CAA706451AF973410023904A /* ODataExample WatchKit App.app */; };
+		CAA7064E1AF973410023904A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA7064C1AF973410023904A /* Interface.storyboard */; };
+		CAA706501AF973410023904A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA7064F1AF973410023904A /* Images.xcassets */; };
+		CAA706531AF973410023904A /* ODataExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CAA706331AF973410023904A /* ODataExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE8D5BAD1AFAE0AB000B4796 /* UserContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5BAC1AFAE0AB000B4796 /* UserContext.m */; };
+		DC1184AC1B0A8371001D91FD /* AccountsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1184AB1B0A8371001D91FD /* AccountsTableViewController.m */; };
+		DC1184AF1B0A8385001D91FD /* OpportunitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1184AE1B0A8385001D91FD /* OpportunitiesTableViewController.m */; };
+		DC85B8B11AFA88010070AF3A /* MyAccountsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC85B8B01AFA88010070AF3A /* MyAccountsRowController.m */; };
+		DC85B8B41AFAA2FF0070AF3A /* SalesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC85B8B31AFAA2FF0070AF3A /* SalesInterfaceController.m */; };
+		DC85B8B71AFAAC910070AF3A /* OpportunitiesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC85B8B61AFAAC910070AF3A /* OpportunitiesRowController.m */; };
+		DCD3A76A1AFBD54A00F2A5EB /* ReloadDataRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD3A7691AFBD54A00F2A5EB /* ReloadDataRowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAA706111AF96DFA0023904A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA705EF1AF96DFA0023904A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA705F61AF96DFA0023904A;
+			remoteInfo = ODataExample;
+		};
+		CAA706471AF973410023904A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA705EF1AF96DFA0023904A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA706441AF973410023904A;
+			remoteInfo = "ODataExample WatchKit App";
+		};
+		CAA706511AF973410023904A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA705EF1AF96DFA0023904A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA706321AF973410023904A;
+			remoteInfo = "ODataExample WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAA7065A1AF973410023904A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAA706531AF973410023904A /* ODataExample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA1A951E1AF99406001C53A6 /* ODataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODataRequest.m; sourceTree = "<group>"; };
+		CA1A951F1AF99406001C53A6 /* ODataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataRequest.h; sourceTree = "<group>"; };
+		CA1A95241AF9989A001C53A6 /* CredentialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialObject.h; sourceTree = "<group>"; };
+		CA1A95251AF9989A001C53A6 /* CredentialObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CredentialObject.m; sourceTree = "<group>"; };
+		CAA705F71AF96DFA0023904A /* ODataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA705FB1AF96DFA0023904A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA705FC1AF96DFA0023904A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAA705FE1AF96DFA0023904A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAA705FF1AF96DFA0023904A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAA706011AF96DFA0023904A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAA706021AF96DFA0023904A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAA706051AF96DFA0023904A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAA706071AF96DFA0023904A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAA7060A1AF96DFA0023904A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAA706101AF96DFA0023904A /* ODataExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODataExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA706151AF96DFB0023904A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA706161AF96DFB0023904A /* ODataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODataExampleTests.m; sourceTree = "<group>"; };
+		CAA706221AF96ED50023904A /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		CAA706231AF96EFC0023904A /* ODataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataProvider.h; sourceTree = "<group>"; };
+		CAA706241AF96EFC0023904A /* ODataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODataProvider.m; sourceTree = "<group>"; };
+		CAA706261AF971F20023904A /* DataFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFacade.h; sourceTree = "<group>"; };
+		CAA706271AF971F20023904A /* DataFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFacade.m; sourceTree = "<group>"; };
+		CAA706291AF972120023904A /* ProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderFactory.h; sourceTree = "<group>"; };
+		CAA7062A1AF972120023904A /* ProviderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderFactory.m; sourceTree = "<group>"; };
+		CAA7062C1AF972860023904A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CAA7062D1AF972860023904A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CAA706331AF973410023904A /* ODataExample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ODataExample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA706361AF973410023904A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA706371AF973410023904A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CAA706381AF973410023904A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		CAA706391AF973410023904A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		CAA706411AF973410023904A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAA706451AF973410023904A /* ODataExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ODataExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA7064B1AF973410023904A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA7064D1AF973410023904A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CAA7064F1AF973410023904A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE8D5BAB1AFAE0AB000B4796 /* UserContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserContext.h; sourceTree = "<group>"; };
+		CE8D5BAC1AFAE0AB000B4796 /* UserContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserContext.m; sourceTree = "<group>"; };
+		DC1184AA1B0A8371001D91FD /* AccountsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsTableViewController.h; sourceTree = "<group>"; };
+		DC1184AB1B0A8371001D91FD /* AccountsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsTableViewController.m; sourceTree = "<group>"; };
+		DC1184AD1B0A8385001D91FD /* OpportunitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpportunitiesTableViewController.h; sourceTree = "<group>"; };
+		DC1184AE1B0A8385001D91FD /* OpportunitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpportunitiesTableViewController.m; sourceTree = "<group>"; };
+		DC85B8AF1AFA88010070AF3A /* MyAccountsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountsRowController.h; sourceTree = "<group>"; };
+		DC85B8B01AFA88010070AF3A /* MyAccountsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountsRowController.m; sourceTree = "<group>"; };
+		DC85B8B21AFAA2FF0070AF3A /* SalesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesInterfaceController.h; sourceTree = "<group>"; };
+		DC85B8B31AFAA2FF0070AF3A /* SalesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesInterfaceController.m; sourceTree = "<group>"; };
+		DC85B8B51AFAAC910070AF3A /* OpportunitiesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpportunitiesRowController.h; sourceTree = "<group>"; };
+		DC85B8B61AFAAC910070AF3A /* OpportunitiesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpportunitiesRowController.m; sourceTree = "<group>"; };
+		DCD3A7681AFBD54A00F2A5EB /* ReloadDataRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReloadDataRowController.h; sourceTree = "<group>"; };
+		DCD3A7691AFBD54A00F2A5EB /* ReloadDataRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReloadDataRowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA705F41AF96DFA0023904A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7060D1AF96DFA0023904A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA706301AF973410023904A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA705EE1AF96DFA0023904A = {
+			isa = PBXGroup;
+			children = (
+				CAA705F91AF96DFA0023904A /* ODataExample */,
+				CAA706131AF96DFA0023904A /* ODataExampleTests */,
+				CAA706341AF973410023904A /* ODataExample WatchKit Extension */,
+				CAA706491AF973410023904A /* ODataExample WatchKit App */,
+				CAA705F81AF96DFA0023904A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA705F81AF96DFA0023904A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA705F71AF96DFA0023904A /* ODataExample.app */,
+				CAA706101AF96DFA0023904A /* ODataExampleTests.xctest */,
+				CAA706331AF973410023904A /* ODataExample WatchKit Extension.appex */,
+				CAA706451AF973410023904A /* ODataExample WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA705F91AF96DFA0023904A /* ODataExample */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706201AF96EA10023904A /* Data */,
+				CAA705FE1AF96DFA0023904A /* AppDelegate.h */,
+				CAA705FF1AF96DFA0023904A /* AppDelegate.m */,
+				CAA706011AF96DFA0023904A /* ViewController.h */,
+				CAA706021AF96DFA0023904A /* ViewController.m */,
+				CAA706041AF96DFA0023904A /* Main.storyboard */,
+				CAA706071AF96DFA0023904A /* Images.xcassets */,
+				CAA706091AF96DFA0023904A /* LaunchScreen.xib */,
+				CAA705FA1AF96DFA0023904A /* Supporting Files */,
+				DC1184AA1B0A8371001D91FD /* AccountsTableViewController.h */,
+				DC1184AB1B0A8371001D91FD /* AccountsTableViewController.m */,
+				DC1184AD1B0A8385001D91FD /* OpportunitiesTableViewController.h */,
+				DC1184AE1B0A8385001D91FD /* OpportunitiesTableViewController.m */,
+			);
+			path = ODataExample;
+			sourceTree = "<group>";
+		};
+		CAA705FA1AF96DFA0023904A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA705FB1AF96DFA0023904A /* Info.plist */,
+				CAA705FC1AF96DFA0023904A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA706131AF96DFA0023904A /* ODataExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706161AF96DFB0023904A /* ODataExampleTests.m */,
+				CAA706141AF96DFB0023904A /* Supporting Files */,
+			);
+			path = ODataExampleTests;
+			sourceTree = "<group>";
+		};
+		CAA706141AF96DFB0023904A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706151AF96DFB0023904A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA706201AF96EA10023904A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706211AF96EA10023904A /* Provider */,
+				CAA706261AF971F20023904A /* DataFacade.h */,
+				CAA706271AF971F20023904A /* DataFacade.m */,
+				CAA7062C1AF972860023904A /* Constants.h */,
+				CAA7062D1AF972860023904A /* Constants.m */,
+				CE8D5BAB1AFAE0AB000B4796 /* UserContext.h */,
+				CE8D5BAC1AFAE0AB000B4796 /* UserContext.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CAA706211AF96EA10023904A /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				CA1A951E1AF99406001C53A6 /* ODataRequest.m */,
+				CA1A951F1AF99406001C53A6 /* ODataRequest.h */,
+				CAA706221AF96ED50023904A /* DataProvider.h */,
+				CAA706231AF96EFC0023904A /* ODataProvider.h */,
+				CAA706241AF96EFC0023904A /* ODataProvider.m */,
+				CAA706291AF972120023904A /* ProviderFactory.h */,
+				CAA7062A1AF972120023904A /* ProviderFactory.m */,
+				CA1A95241AF9989A001C53A6 /* CredentialObject.h */,
+				CA1A95251AF9989A001C53A6 /* CredentialObject.m */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		CAA706341AF973410023904A /* ODataExample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706381AF973410023904A /* InterfaceController.h */,
+				CAA706391AF973410023904A /* InterfaceController.m */,
+				CAA706411AF973410023904A /* Images.xcassets */,
+				CAA706351AF973410023904A /* Supporting Files */,
+				DCD3A76B1AFBD55800F2A5EB /* RowControllers */,
+				DC85B8B21AFAA2FF0070AF3A /* SalesInterfaceController.h */,
+				DC85B8B31AFAA2FF0070AF3A /* SalesInterfaceController.m */,
+			);
+			path = "ODataExample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CAA706351AF973410023904A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA706361AF973410023904A /* Info.plist */,
+				CAA706371AF973410023904A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA706491AF973410023904A /* ODataExample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7064C1AF973410023904A /* Interface.storyboard */,
+				CAA7064F1AF973410023904A /* Images.xcassets */,
+				CAA7064A1AF973410023904A /* Supporting Files */,
+			);
+			path = "ODataExample WatchKit App";
+			sourceTree = "<group>";
+		};
+		CAA7064A1AF973410023904A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7064B1AF973410023904A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD3A76B1AFBD55800F2A5EB /* RowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC85B8AF1AFA88010070AF3A /* MyAccountsRowController.h */,
+				DC85B8B01AFA88010070AF3A /* MyAccountsRowController.m */,
+				DC85B8B51AFAAC910070AF3A /* OpportunitiesRowController.h */,
+				DC85B8B61AFAAC910070AF3A /* OpportunitiesRowController.m */,
+				DCD3A7681AFBD54A00F2A5EB /* ReloadDataRowController.h */,
+				DCD3A7691AFBD54A00F2A5EB /* ReloadDataRowController.m */,
+			);
+			name = RowControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA705F61AF96DFA0023904A /* ODataExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA7061A1AF96DFB0023904A /* Build configuration list for PBXNativeTarget "ODataExample" */;
+			buildPhases = (
+				CAA705F31AF96DFA0023904A /* Sources */,
+				CAA705F41AF96DFA0023904A /* Frameworks */,
+				CAA705F51AF96DFA0023904A /* Resources */,
+				CAA7065A1AF973410023904A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA706521AF973410023904A /* PBXTargetDependency */,
+			);
+			name = ODataExample;
+			productName = ODataExample;
+			productReference = CAA705F71AF96DFA0023904A /* ODataExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAA7060F1AF96DFA0023904A /* ODataExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA7061D1AF96DFB0023904A /* Build configuration list for PBXNativeTarget "ODataExampleTests" */;
+			buildPhases = (
+				CAA7060C1AF96DFA0023904A /* Sources */,
+				CAA7060D1AF96DFA0023904A /* Frameworks */,
+				CAA7060E1AF96DFA0023904A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA706121AF96DFA0023904A /* PBXTargetDependency */,
+			);
+			name = ODataExampleTests;
+			productName = ODataExampleTests;
+			productReference = CAA706101AF96DFA0023904A /* ODataExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAA706321AF973410023904A /* ODataExample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA706591AF973410023904A /* Build configuration list for PBXNativeTarget "ODataExample WatchKit Extension" */;
+			buildPhases = (
+				CAA7062F1AF973410023904A /* Sources */,
+				CAA706301AF973410023904A /* Frameworks */,
+				CAA706311AF973410023904A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA706481AF973410023904A /* PBXTargetDependency */,
+			);
+			name = "ODataExample WatchKit Extension";
+			productName = "ODataExample WatchKit Extension";
+			productReference = CAA706331AF973410023904A /* ODataExample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CAA706441AF973410023904A /* ODataExample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA706581AF973410023904A /* Build configuration list for PBXNativeTarget "ODataExample WatchKit App" */;
+			buildPhases = (
+				CAA706431AF973410023904A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODataExample WatchKit App";
+			productName = "ODataExample WatchKit App";
+			productReference = CAA706451AF973410023904A /* ODataExample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA705EF1AF96DFA0023904A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "SAP Labs LLC";
+				TargetAttributes = {
+					CAA705F61AF96DFA0023904A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CAA7060F1AF96DFA0023904A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CAA705F61AF96DFA0023904A;
+					};
+					CAA706321AF973410023904A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CAA706441AF973410023904A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAA705F21AF96DFA0023904A /* Build configuration list for PBXProject "ODataExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA705EE1AF96DFA0023904A;
+			productRefGroup = CAA705F81AF96DFA0023904A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA705F61AF96DFA0023904A /* ODataExample */,
+				CAA7060F1AF96DFA0023904A /* ODataExampleTests */,
+				CAA706321AF973410023904A /* ODataExample WatchKit Extension */,
+				CAA706441AF973410023904A /* ODataExample WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA705F51AF96DFA0023904A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA706061AF96DFA0023904A /* Main.storyboard in Resources */,
+				CAA7060B1AF96DFA0023904A /* LaunchScreen.xib in Resources */,
+				CAA706081AF96DFA0023904A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7060E1AF96DFA0023904A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA706311AF973410023904A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA706421AF973410023904A /* Images.xcassets in Resources */,
+				CAA706461AF973410023904A /* ODataExample WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA706431AF973410023904A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA7064E1AF973410023904A /* Interface.storyboard in Resources */,
+				CAA706501AF973410023904A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA705F31AF96DFA0023904A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA706031AF96DFA0023904A /* ViewController.m in Sources */,
+				CAA7062B1AF972120023904A /* ProviderFactory.m in Sources */,
+				CE8D5BAD1AFAE0AB000B4796 /* UserContext.m in Sources */,
+				CAA706281AF971F20023904A /* DataFacade.m in Sources */,
+				CA1A95261AF9989A001C53A6 /* CredentialObject.m in Sources */,
+				DC1184AF1B0A8385001D91FD /* OpportunitiesTableViewController.m in Sources */,
+				CAA706001AF96DFA0023904A /* AppDelegate.m in Sources */,
+				CAA706251AF96EFC0023904A /* ODataProvider.m in Sources */,
+				DC1184AC1B0A8371001D91FD /* AccountsTableViewController.m in Sources */,
+				CA1A95201AF99406001C53A6 /* ODataRequest.m in Sources */,
+				CAA7062E1AF972860023904A /* Constants.m in Sources */,
+				CAA705FD1AF96DFA0023904A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7060C1AF96DFA0023904A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA706171AF96DFB0023904A /* ODataExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7062F1AF973410023904A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC85B8B71AFAAC910070AF3A /* OpportunitiesRowController.m in Sources */,
+				DCD3A76A1AFBD54A00F2A5EB /* ReloadDataRowController.m in Sources */,
+				DC85B8B11AFA88010070AF3A /* MyAccountsRowController.m in Sources */,
+				DC85B8B41AFAA2FF0070AF3A /* SalesInterfaceController.m in Sources */,
+				CAA7063A1AF973410023904A /* InterfaceController.m in Sources */,
+				CA1A95271AF99E1E001C53A6 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAA706121AF96DFA0023904A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA705F61AF96DFA0023904A /* ODataExample */;
+			targetProxy = CAA706111AF96DFA0023904A /* PBXContainerItemProxy */;
+		};
+		CAA706481AF973410023904A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA706441AF973410023904A /* ODataExample WatchKit App */;
+			targetProxy = CAA706471AF973410023904A /* PBXContainerItemProxy */;
+		};
+		CAA706521AF973410023904A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA706321AF973410023904A /* ODataExample WatchKit Extension */;
+			targetProxy = CAA706511AF973410023904A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAA706041AF96DFA0023904A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA706051AF96DFA0023904A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA706091AF96DFA0023904A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA7060A1AF96DFA0023904A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CAA7064C1AF973410023904A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA7064D1AF973410023904A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA706181AF96DFB0023904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAA706191AF96DFB0023904A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA7061B1AF96DFB0023904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ODataExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAA7061C1AF96DFB0023904A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ODataExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAA7061E1AF96DFB0023904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ODataExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODataExample.app/ODataExample";
+			};
+			name = Debug;
+		};
+		CAA7061F1AF96DFB0023904A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ODataExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODataExample.app/ODataExample";
+			};
+			name = Release;
+		};
+		CAA706541AF973410023904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ODataExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAA706551AF973410023904A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ODataExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAA706561AF973410023904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ODataExample_WatchKit_Extension;
+				INFOPLIST_FILE = "ODataExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		CAA706571AF973410023904A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ODataExample_WatchKit_Extension;
+				INFOPLIST_FILE = "ODataExample WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA705F21AF96DFA0023904A /* Build configuration list for PBXProject "ODataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA706181AF96DFB0023904A /* Debug */,
+				CAA706191AF96DFB0023904A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA7061A1AF96DFB0023904A /* Build configuration list for PBXNativeTarget "ODataExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA7061B1AF96DFB0023904A /* Debug */,
+				CAA7061C1AF96DFB0023904A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA7061D1AF96DFB0023904A /* Build configuration list for PBXNativeTarget "ODataExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA7061E1AF96DFB0023904A /* Debug */,
+				CAA7061F1AF96DFB0023904A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA706581AF973410023904A /* Build configuration list for PBXNativeTarget "ODataExample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA706561AF973410023904A /* Debug */,
+				CAA706571AF973410023904A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA706591AF973410023904A /* Build configuration list for PBXNativeTarget "ODataExample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA706541AF973410023904A /* Debug */,
+				CAA706551AF973410023904A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA705EF1AF96DFA0023904A /* Project object */;
+}
