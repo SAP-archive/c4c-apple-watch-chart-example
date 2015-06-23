@@ -1,7 +1,7 @@
 SAP Digital for Customer Engagement - Apple Watch OData API Sample
 ===============================
 
-This repository contains the sample code demonstrating how to connect an Apple Watch app to the SAP Digital for Customer Engagement OData API’s for both Accounts & Opportunities and render the Opportunity data in a animated dynamic bar chart. 
+This repository contains the sample code demonstrating how to connect an iOS & Apple Watch app to the SAP Digital for Customer Engagement OData API’s for both Accounts & Opportunities and render the Opportunity data in an animated dynamic bar chart. 
 
 ## Disclaimer ##
 <span style="color:red">Public access to the SAP Digital for Customer Engagement OData API is not supported currently. Customers/developers/partners should reach out to SAP for any such requests. For this sample your own login credentials will be used to access the OData API's</span>
@@ -46,7 +46,7 @@ In order to get data from the iPhone such as network responses you need to call
 
 <B>Docs:</B> [handleWatchKitExtensionRequest:reply:](https://developer.apple.com/library/prerelease/ios/documentation/WatchKit/Reference/WKInterfaceController_class/#//apple_ref/occ/clm/WKInterfaceController/openParentApplication:reply:)
 
-The folowing code is needed to spawn a background task that will handle your <B>reply(NSDictionary*replyInfo)</B> callback.
+The following code is needed to spawn a background task that will handle your <B>reply(NSDictionary*replyInfo)</B> callback.
 
 #### Figure 1.2.1 ####
 ```objective-c
