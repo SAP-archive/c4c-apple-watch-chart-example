@@ -10,7 +10,7 @@ http://scn.sap.com/community/cloud-for-customer/blog/2015/05/08/apple-watch-char
 
 ## Screenshots ##
 ### iPhone ###
-![iPhone Screenshot](https://raw.githubusercontent.com/SAP/c4c-apple-watch-chart-example/master/iPhone.png?token=AMXxTpSzoXxUULcFXDMo2ZslowmSA5dPks5VkcX5wA%3D%3D)
+![iPhone Screenshot](https://raw.githubusercontent.com/SAP/c4c-apple-watch-chart-example/master/iPhone.png?token=AMXxTpSzoXxUULcFXDMo2ZslowmSA5dPks5VkcX5wA%3D%3D)![iPhone Screenshot](https://raw.githubusercontent.com/SAP/c4c-apple-watch-chart-example/master/accounts.png?token=AMXxTsHqBtooZZfCwZiGhI1oCL3idRM0ks5VkxsVwA%3D%3D)![iPhone Screenshot](https://raw.githubusercontent.com/SAP/c4c-apple-watch-chart-example/master/accounts.png?token=AMXxTtKGQYMUnmL33H6f2N9R3coNQnstks5VkxtYwA%3D%3D)
 
 ### Apple Watch ###
 ![Apple Watch Screenshot](https://raw.githubusercontent.com/SAP/c4c-apple-watch-chart-example/master/Apple%20Watch.png?token=AMXxTu3M9F7IqkZqs5QWEaS8_opHRAFbks5VkcYowA%3D%3D)
