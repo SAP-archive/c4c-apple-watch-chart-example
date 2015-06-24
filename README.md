@@ -9,7 +9,7 @@ This repository contains the sample code demonstrating how to connect an iOS & A
 ## SCN Article ##
 You can read the SCN Blog Post that this code was created for here: 
 
-http://scn.sap.com/community/cloud-for-customer/blog/2015/05/08/apple-watch-charting-using-cloud-for-customer-odata-api
+http://scn.sap.com/community/cloud-for-customer/blog/2015/06/24/apple-watch-charting-using-cloud-for-customer-odata-api
 
 ## Platforms ##
 This sample code is for WatchOS 1.X & iOS 8.0+ and runs on the following hardware:
